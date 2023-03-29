@@ -3,7 +3,7 @@ import { useEffect, useState } from "react";
 import { useInView } from "react-intersection-observer";
 import SocialIcons from "../components/SocialIcons";
 import aboutMeImg from "../images/freelancer.png";
-import resume from "../pages/about/michael-yeates-resume.pdf";
+import resume from "../pages/about/profile.pdf";
 
 const AboutMe = ({ name, email, location, availability, brand }) => {
   const [ref, inView] = useInView({
@@ -21,7 +21,7 @@ const AboutMe = ({ name, email, location, availability, brand }) => {
     setDownloading(true);
     const link = document.createElement("a");
     link.href = resume;
-    link.download = "Michael-Yeates-Resume.pdf";
+    link.download = "Abdur-Nour-Tanim-Resume.pdf";
     link.onload = () => {
       link.remove();
       setDownloading(false);
