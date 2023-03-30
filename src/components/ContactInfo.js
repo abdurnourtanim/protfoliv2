@@ -1,5 +1,5 @@
-import { useInView } from "react-intersection-observer";
 import { motion } from "framer-motion";
+import { useInView } from "react-intersection-observer";
 
 const ContactInfo = ({ name, email, location }) => {
   const [ref, inView] = useInView({
@@ -15,7 +15,10 @@ const ContactInfo = ({ name, email, location }) => {
       transition={{ duration: 0.4, ease: "easeInOut" }}
     >
       <h4 className="contentTitle">Contact Information</h4>
-      <p className="infoDescription">Open for opportunities. Let's connect and build something awesome together! </p>
+      <p className="infoDescription">
+        Open for opportunities. Let's connect and build something awesome
+        together!{" "}
+      </p>
       <ul className="listInfo">
         <li>
           <div className="personalContactInfo">

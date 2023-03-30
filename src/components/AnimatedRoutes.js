@@ -1,9 +1,9 @@
 import { Route, Routes, useLocation } from "react-router-dom";
 
-import About from "../pages/about/About";
-import Contact from "../pages/contact/Contact";
-import Landing from "../pages/landing/Landing";
-import Portfolio from "../pages/portfolio/Portfolio";
+import About from "../pages/About";
+import Contact from "../pages/Contact";
+import Landing from "../pages/Landing";
+import Portfolio from "../pages/Portfolio";
 
 const AnimatedRoutes = ({ personalDetails }) => {
   console.log(personalDetails.name);

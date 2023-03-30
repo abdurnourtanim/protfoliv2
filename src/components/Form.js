@@ -1,6 +1,6 @@
-import { useInView } from "react-intersection-observer";
 import { motion } from "framer-motion";
 import { useState } from "react";
+import { useInView } from "react-intersection-observer";
 
 const Form = () => {
   const [ref, inView] = useInView({
@@ -8,7 +8,7 @@ const Form = () => {
     triggerOnce: true,
   });
 
-  const [success, setSuccess] = useState(false);
+
 
   const [formData, setFormData] = useState({
     name: "",
@@ -28,31 +28,7 @@ const Form = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
 
-    const data = JSON.stringify(formData);
-
-    fetch("https://api.web3forms.com/submit", {
-      method: "POST",
-      headers: {
-        "Content-Type": "application/json",
-        Accept: "application/json",
-      },
-      body: data,
-    })
-      .then((res) => res.json())
-      .then((data) => {
-        setSuccess(true);
-        setFormData({
-          ...formData,
-          name: "",
-          email: "",
-          subject: "",
-          message: "",
-        });
-        setTimeout(() => {
-          setSuccess(false);
-        }, 3000);
-      })
-      .catch((err) => console.log(err));
+    alert("Thanks for feedback!");
   };
 
   return (
@@ -66,7 +42,10 @@ const Form = () => {
       onSubmit={handleSubmit}
     >
       <h4 className="contentTitle">Message Me</h4>
-      <div className="col-12 col-md-6 formGroup" style={{ display: "inline-block" }}>
+      <div
+        className="col-12 col-md-6 formGroup"
+        style={{ display: "inline-block" }}
+      >
         <input
           type="text"
           className="formControl"
@@ -78,7 +57,10 @@ const Form = () => {
           required
         />
       </div>
-      <div className="col-12 col-md-6 formGroup" style={{ display: "inline-block" }}>
+      <div
+        className="col-12 col-md-6 formGroup"
+        style={{ display: "inline-block" }}
+      >
         <input
           type="email"
           className="formControl"
@@ -115,7 +97,7 @@ const Form = () => {
         ></textarea>
       </div>
       <div className="col-12 formGroup formSubmit">
-        <button className="btn">{success ? "Message Sent" : "Send Message"}</button>
+        <button className="btn">Send Message</button>
       </div>
     </motion.form>
   );

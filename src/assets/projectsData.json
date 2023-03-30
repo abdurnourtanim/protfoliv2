@@ -1,0 +1,64 @@
+[
+  {
+    "title": "Share ME",
+    "image": "https://antanimv2.vercel.app/images/shareme.png",
+    "description": "Using React, Sanity.io, Tailwindcss & Google Login you'll learn how to build a Full Stack MERN Application - from start to finish. The App is called Memories and it is a simple social media app that allows users to post interesting events that happened in their lives.",
+    "technologies": "React | Sanity | Tailwind |  Google Login",
+    "github": "https://github.com/abdurnourtanim/shareMe",
+    "deployed": "https://shareMe-antanim.netlify.app",
+    "bgcolor": "#f37737",
+    "id": "1"
+  },
+  {
+    "title": "Discord Clone",
+    "image": "https://cdn-thumbs.comidoc.net/750/4395504_fb5f.jpg",
+    "technologies": "React | Redux | Firebase",
+    "description": "While building it you're going to learn many advanced React & React Redux & JavaScript topics, as well as how to use Stripe for card transactions. On top of that, at the end of the video, you will have this unique and complex webshop app that you will be able to add to your portfolio. And trust me, e-commerce applications are impressive.",
+    "github": "https://github.com/abdurnourtanim/discord-clone/",
+    "deployed": "https://discord-clone-antanim.netlify.app/",
+    "bgcolor": "#29cbe0",
+    "id": "2"
+  },
+  {
+    "title": "Netflix Clone",
+    "image": "https://antanimv2.vercel.app/images/netflix.png",
+    "technologies": "React | TMDB | Firebase",
+    "description": "Netflix Clone is an on-demand video streaming app solution that helps to launch your own on-demand OTT platform like Netflix, where you can watch unlimited movies & TV shows for one low month to month cost. Netflix Clone broadcasts movies and TV shows over the Internet to new locations with enormous audiences.",
+    "github": "https://github.com/abdurnourtanim/netflix-clone",
+    "deployed": "https://netflix-clone-antanim.netlify.app/",
+    "bgcolor": "#6c4bf4",
+    "id": "3"
+  },
+  {
+    "title": "Samar",
+    "image": "https://antanimv2.vercel.app/images/samar.png",
+    "technologies": "React",
+    "description": "This is a code repository for the corresponding video tutorial. In this video, we will create a full Realtime Chat Application",
+    "github": "https://github.com/abdurnourtanim/samar-app",
+    "deployed": "https://samar-antanim.netlify.app/",
+    "bgcolor": "#f85781",
+    "id": "4"
+  },
+
+  {
+    "title": "Linkedin Clone",
+    "image": "https://miro.medium.com/max/1200/1*hqvEJeDzLhaotjFn933R5Q.png",
+    "description": "Linkedin-Clone is a project developed using React JS. It is clone of Linkedin. The index page contains login credentails. Sign in with google is enabled through firebase as a backend",
+    "technologies": "Next | Firebase | Google Login | Tailwindcss",
+    "github": "https://github.com/abdurnourtanim/linkedin-clone",
+    "deployed": "https://linkedin-antanim.vercel.app/",
+    "bgcolor": "#ffcc33",
+    "id": "1"
+  },
+
+  {
+    "title": "Rapaid Clone",
+    "image": "https://cdn.dribbble.com/users/1171505/screenshots/15422137/media/dd60f5326be70b8c0c68f406420feeb4.png?compress=1&resize=400x300",
+    "technologies": "JS | Bootstrap | Moment",
+    "description": "This is a code repository for the corresponding video tutorial. In this video, we will create a full Realtime Chat Application",
+    "github": "https://github.com/antanim/rapaid.github.io",
+    "deployed": "https://antanim.github.io/rapaid.github.io/",
+    "bgcolor": "#3e67ff",
+    "id": "6"
+  }
+]

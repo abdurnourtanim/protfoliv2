@@ -1,9 +1,9 @@
 import { motion } from "framer-motion";
 import { useEffect, useState } from "react";
 import { useInView } from "react-intersection-observer";
+import aboutMeImg from "../assets/images/freelancer.png";
+import resume from "../assets/profile.pdf";
 import SocialIcons from "../components/SocialIcons";
-import aboutMeImg from "../images/freelancer.png";
-import resume from "../pages/about/profile.pdf";
 
 const AboutMe = ({ name, email, location, availability, brand }) => {
   const [ref, inView] = useInView({
